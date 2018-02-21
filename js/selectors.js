@@ -23,7 +23,7 @@ function divSelector() {
 }
 
 function firstListItem() {
-  var firstKid = $('#pic-list, ul:first-child');
+  var firstKid = $('ul:first-child.#pic-list');
 
   return firstKid;
 }
