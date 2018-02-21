@@ -21,3 +21,9 @@ function divSelector() {
 
   return picDiv;
 }
+
+function firstListItem() {
+  var firstKid = $('#pic-list, ul:first-child');
+
+  return firstKid;
+}
