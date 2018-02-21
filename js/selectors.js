@@ -9,3 +9,9 @@ function lastImageSelector() {
 
   return last
 }
+
+function ninjaBabySelector() {
+  var baby = $('img:contains(baby-ninja)');
+
+  return baby
+}
